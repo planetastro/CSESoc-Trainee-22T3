@@ -1,0 +1,21 @@
+.banner {
+    width: 100%;
+}
+
+#headshot {
+    max-width: 35%;
+}
+
+.portraits {
+    max-width: 30%;
+}
+
+.speakers {
+    height: 25rem;
+    max-width: 40%;
+}
+
+.web-icons {
+    width: 50px;
+    color: white;
+}
