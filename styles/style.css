@@ -166,7 +166,7 @@ footer {
     }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1200px) {
     nav {
         width: 15em;
     }
