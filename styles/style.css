@@ -19,3 +19,12 @@
     width: 50px;
     color: white;
 }
+
+footer {
+    background-color: bisque;
+    text-align: center;
+}
+
+footer * {
+    width: 25%;
+}
