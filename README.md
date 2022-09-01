@@ -9,3 +9,6 @@
 ## Tech Stack
 - HTML
 - CSS
+
+## Resources Used
+I followed the HTML & CSS tutorial playlist by Traversy Media. My progress is detailed in this [repository](https://github.com/planetastro/Web-Development-Tutorial-Traversy-Media).

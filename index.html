@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>It's Trainee-ing Time!</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>It's Traiknee Time!</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
 
   <body>
-    <header title="hero-banner">
-      <img src="images/personal/bondi-beach-waves.gif" class="banner" alt="A video of ocean waves crashing against the shore at Bondi Beach">
+    <header class="flex-layout" title="My name is William, and I hope you enjoy these images taken at Bondi Beach!">
+      <!--div class="gray-layer"></div-->
       
-      <h1>Nice to meet you! My name is William!</h2>
-      <h3>I'm starting my second year in the Commerce/Computer Science double degree at UNSW.</h3>
-      <img src="images/personal/william-headshot.jpg" id="headshot" class="portraits" alt="William at a regular old beach in Sydney">
-    </header>
-    
-    <hr>
+      <div id="intro">
+        <h1>Nice to meet you! My name is William!</h2>
+        <h3>I'm starting my second year in the Commerce/Computer Science double degree at UNSW.</h3>
+      </div>
 
-    <section title="about-me">
-      <h2>About Me</h2>
-      <table>
+      <div id="headshot">
+        <img src="images/personal/william-headshot.jpg" alt="William at a beach in Sydney">
+      </div>
+    </header>
+
+    <nav id="social-media" class="flex-layout">
+      <a href="https://www.linkedin.com/in/william-o-setiawan/">
+        <img src="images/icons/linkedin-brands.svg" class="web-icons" alt="LinkedIn icon">
+      </a>
+      <a href="https://github.com/planetastro">
+        <img src="images/icons/github-brands.svg" class="web-icons" alt="GitHub icon">
+      </a>
+      <a href="https://www.facebook.com/will.o.setiawan/">
+        <img src="images/icons/facebook-brands.svg" class="web-icons" alt="Facebook icon">
+      </a>
+    </nav>
+
+    <section id="about-me" class="flex-layout" title="Why not a few personal Top 5 lists? Top 5 food is everything!">
+      <h2 class="section-heading">About Me</h2>
+
+      <figure id="eating-fig">
+        <img src="images/personal/william-plus-food-equals-profit.jpg" alt="William eating Hainanese chicken rice">
+        <figcaption>Photo Description: About to inhale Hainanese chicken rice at Market City.</figcaption>
+      </figure>
+      
+      <table id="top-five-tbl">
         <thead>
           <tr>
             <th>Top 5 Games</th>
@@ -63,63 +83,43 @@
           </tr>
         </tbody>
       </table>
-
-      <aside>
-        <img src="images/personal/william-plus-food-equals-profit.jpg" class="portraits">
-        <p><em>Photo Description: About to inhale Hainanese chicken rice at Market City.</em></p>
-      </aside>
     </section>
-    
-    <hr>
 
-    <section title="background-experience">
-      <img src="images/personal/left-speaker-ducky.jpg" class="portraits speakers" alt="Left desktop speaker with Mr Duck">
-      <img src="images/personal/right-speaker-sussy.jpg" class="portraits speakers" alt="Right desktop speaker with Mr Sus">
-
-      <div>
-        <h2>Background Experience</h2>
-        <ul>
-          <li>
-            Part-Time | February 2022 - Present | UNSW CSE | Casual Academic (COMP1511)
-            <br>
-            Worked as a Laboratory Assistant for CSE teaching COMP1511.
-          </li>
-          <li>
-            Full-Time | April 2021 - August 2021 | ADDX, Human Resources | Intern
-            <br>
-            Assisted the HR department in recruitment. Also automated KPI tracking using Excel and did data visualization for senior management using Power BI.</li>
-          <li>
-            Full-Time | April 2019 - April 2021 | Singapore Armed Forces | Driver/Clerk
-            <br>
-            Trained as a military driver, also held responsibilities in arranging operations. Also built a Telegram bot and prototyped website for military company.
-          </li>
-          <li>
-            Full-Time | January 2019 - March 2019 | PwC, Digital Tax | Intern
-            <br>
-            Assisted the Digital Tax department by building text classification software using R.
-          </li>
-        </ul>
-      </div>
+    <section id="background-experience" class="flex-layout" title="My desktop speakers, guarded by Mr Duck and Mr Sus. Oh, and my background!">
+      <h2 class="section-heading">Background Experience</h2>
       
-      <a href="https://www.linkedin.com/in/william-o-setiawan/">
-        <img src="images/icons/linkedin-brands.svg" class="web-icons" alt="LinkedIn icon">
-      </a>
-      <a href="https://github.com/planetastro">
-        <img src="images/icons/github-brands.svg" class="web-icons" alt="GitHub icon">
-      </a>
-      <a href="https://www.facebook.com/will.o.setiawan/">
-        <img src="images/icons/facebook-brands.svg" class="web-icons" alt="Facebook icon">
-      </a>
+      <img id="speakers" src="images/personal/left-speaker-ducky.jpg" alt="Left desktop speaker with Mr Duck">
+      <ul id="past-experiences">
+        <li>
+          Part-Time | February 2022 - Present | UNSW CSE | Casual Academic (COMP1511)
+          <br>
+          <br>
+          Worked as a Laboratory Assistant for CSE teaching COMP1511.
+        </li>
+        <li>
+          Full-Time | April 2021 - August 2021 | ADDX, Human Resources | Intern
+          <br>
+          <br>
+          Assisted the HR department in recruitment. Also automated KPI tracking using Excel and did data visualization for senior management using Power BI.</li>
+        <li>
+          Full-Time | April 2019 - April 2021 | Singapore Armed Forces | Driver/Clerk
+          <br>
+          <br>
+          Trained as a military driver, also held responsibilities in arranging operations. Also built a Telegram bot and prototyped website for military company.
+        </li>
+        <li>
+          Full-Time | January 2019 - March 2019 | PwC, Digital Tax | Intern
+          <br>
+          <br>
+          Assisted the Digital Tax department by building text classification software using R.
+        </li>
+      </ul>
+      <img id="speakers" src="images/personal/right-speaker-sussy.jpg" alt="Right desktop speaker with Mr Sus">
     </section>
     
-    <hr>
-
     <footer>
-      <p>Thank you for looking at my website! Have a great day!</p>
-      <img src="images/logos/csesoc-unsw-icon.png" alt="The UNSW CSESoc logo, or a clean version of fsociety">
-      <h1>>=</h1>
-      <img src="images/logos/unsw-sydney-icon.png" alt="The University of New South Wales logo">
+      <hr>
+      <h4>Thank you for looking at my website! Special thanks if you're CSESoc!</h4>
     </footer>
-
   </body>
 </html>
