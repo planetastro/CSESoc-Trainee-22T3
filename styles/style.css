@@ -2,7 +2,7 @@
 html, body {
     margin: 0;
     height: 100%;
-    overflow: auto;
+    overflow: auto; /* NOTE: required to ensure height 100% doesn't limit body to just the first section of webpage */
     font-family: Tahoma, Verdana, Geneva, sans-serif;
 }
 
@@ -47,7 +47,7 @@ footer {
 
 .flex-layout {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* NOTE: preset CSS is used for small resolutions. Media queries larger sizes */
     justify-content: center;
     align-items: center;
 }
@@ -118,7 +118,7 @@ footer {
 }
 
 #top-five-tbl {
-    margin-left: auto;
+    margin-left: auto; /* NOTE: used to push table as far right as possible */
     table-layout: fixed;
     border-collapse: collapse;
     border: 3px dotted #8F2D56;
