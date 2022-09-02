@@ -56,7 +56,6 @@ footer {
     color: #33AAFF;
     font: bolder 2em Verdana;
     margin: 0 0 1em 0;
-    word-spacing: 0.5em;
     text-transform: uppercase;
 }
 
@@ -145,7 +144,10 @@ footer {
 }
 
 #past-experiences {
-    padding: 0 2em;
+    padding: 0 1.5em;
+    margin: 2em 0;
+    border: 3px dotted #8F2D56;
+    list-style-type: none;
 }
 
 #past-experiences li {
@@ -196,6 +198,10 @@ footer {
 
     #eating-fit {
         margin: 0 1em 0 0;
+    }
+
+    #past-experiences {
+        margin: 0 2em;
     }
 
     #past-experiences li {
